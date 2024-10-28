@@ -37,7 +37,7 @@ To run the project locally:
 4. Start the development server:
    ```bash
    npm run dev
-5. Open your browser and visit http://localhost:3000 to see the application in action or visit deployed site https://vidushi-jaiswal-event-spot-lite.vercel.app/#eventSection
+5. Open your browser and visit http://localhost:3000 to see the application in action or visit deployed site https://vidushi-jaiswal-event-spot-lite.vercel.app/
 
 ## Future Enhancements
 - Integration with real-time event APIs for dynamic updates on esports events.
