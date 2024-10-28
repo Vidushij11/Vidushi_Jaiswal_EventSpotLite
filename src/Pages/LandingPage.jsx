@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Card from "../components/Card";
+import bgVideo from "../assets/Untitled video - Made with Clipchamp.mp4";
 import valorant from "../assets/Valorant.webp";
 import rocket from "../assets/rocketleague.jpg";
 import league from "../assets/lfl.jpg";
@@ -72,7 +73,7 @@ const LandingPage = () => {
           {/* Video Container */}
           <video
             className="w-full h-[42rem] absolute  object-cover opacity-50"
-            src="/src/assets/Untitled video - Made with Clipchamp.mp4"
+            src={bgVideo}
             autoPlay
             loop
             muted
