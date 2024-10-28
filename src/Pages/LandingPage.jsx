@@ -60,11 +60,11 @@ const LandingPage = () => {
   return (
     <div className="bg-gray-900 min-h-screen  w-full overflow-hidden">
       <div className=" ">
-        <div className="w-full h-[42rem] flex flex-col items-center justify-center text-white overflow-hidden">
-          <h1 className="text-6xl text-yellow-100 px-96 text-center z-10 text-wrap">
+        <div className="w-full h-[42rem] flex pt-20 flex-col items-center justify-center text-white overflow-hidden">
+          <h1 className="md:text-6xl text-4xl sm:text-5xl text-yellow-100 px-12 sm:px-20 lg:px-96  md:px-56 text-center z-10 text-wrap">
             Ultimate Esports Arena: Where Gamers Rise
           </h1>
-          <p className="text-wrap text-lg font-mono z-10 w-full px-72 text-gray-200 pb-10 pt-6 text-center ">
+          <p className="text-wrap md:text-lg sm:text-sm text-base font-mono z-10 w-full px-6 sm:px-16 md:px-72 text-gray-200 pb-10 pt-6 text-center ">
             "Join the battlefield! Experience high-stakes tournaments, fierce
             competition, and the thrill of victory. Step into the ultimate arena
             for gamers, where skill meets strategy, and legends are born. Are
@@ -97,16 +97,16 @@ const LandingPage = () => {
         id="eventSection"
       >
         <img src={ellipse} className="absolute top-1/2 right-0" />
-        <h1 className="w-full text-center text-4xl font-bold pt-8">
+        <h1 className="w-full text-center md:text-4xl text-3xl sm:text-2xl font-bold pt-8">
           Our <span className="text-[#14b1c1]">Upcoming</span> Event
         </h1>
-        <p className="text-wrap text-sm font-mono w-full px-40 text-gray-700 pb-10 pt-6 text-center">
+        <p className="text-wrap text-xs px-20 md:text-sm font-mono w-full md:px-40 text-gray-700 pb-10 pt-6 text-center">
           Level up at our upcoming gaming event! Join us for intense
           tournaments, live battles, and exclusive game previews. Connect with
           fellow gamers, meet top players, and dive into the ultimate gaming
           experience. Don’t miss out—be part of the action!
         </p>
-        <div className="flex h-full p-10 justify-between flex-wrap">
+        <div className="flex h-full w-full p-10 md:justify-between flex-wrap items-center justify-center">
           {events.map((event, index) => {
             if (index % 2 == 0)
               return (
@@ -124,7 +124,7 @@ const LandingPage = () => {
                       img: event.img,
                     });
                   }}
-                  className="flex flex-col gap-4 cursor-pointer"
+                  className="flex flex-col gap-4 cursor-pointer mb-4"
                 >
                   <Card
                     title={event.title}
@@ -145,7 +145,7 @@ const LandingPage = () => {
                       img: event.img,
                     });
                   }}
-                  className="flex flex-col gap-4 "
+                  className="flex flex-col gap-4 mb-4 cursor-pointer "
                 >
                   <img src={event.img} className="h-44 z-10" />
                   <Card
@@ -174,11 +174,11 @@ const LandingPage = () => {
           transition={{ duration: 0.4 }}
           className="w-full h-full px-32 bg-gray-900 rounded-t-[2rem]"
         >
-          <h1 className="w-full text-white text-center text-4xl font-bold pt-8">
+          <h1 className="w-full text-white text-center text-3xl md:text-4xl font-bold pt-8">
             Past <span className="text-[#14b1c1]">Event's</span> Glimpses
           </h1>
 
-          <p className="text-wrap text-sm font-mono w-full px-40 text-gray-300 pb-10 pt-6 text-center">
+          <p className="text-wrap  text-xs md:text-sm font-mono w-full md:px-40 text-gray-300 pb-10 pt-6 text-center">
             These glimpses highlight a legacy of dynamic, community-driven
             events celebrating innovation and competitive spirit in gaming and
             tech.
