@@ -1,0 +1,12 @@
+.debug1{
+    @apply border-2 border-solid border-red-500
+}
+.debug2{
+    @apply border-2 border-solid border-blue-500
+}
+.debug3{
+    @apply border-2 border-solid border-green-500
+}
+html{
+    scroll-behavior: smooth;
+}
