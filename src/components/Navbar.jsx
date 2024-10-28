@@ -11,7 +11,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="bg-gray-900 text-white shadow-lg px-6 ">
+    <header className="bg-gray-900 text-white shadow-lg px-6  fixed z-50 w-full">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="flex items-center">

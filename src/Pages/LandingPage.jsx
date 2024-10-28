@@ -79,7 +79,7 @@ const LandingPage = () => {
             muted
           />
           <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-lg">
-            <a className="z-50 shadow-lg" href="#eventSection">
+            <a className="z-40 shadow-lg" href="#eventSection">
               <FontAwesomeIcon
                 icon={faArrowDown}
                 className="text-yellow-100 text-2xl"
